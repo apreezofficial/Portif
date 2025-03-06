@@ -6,10 +6,10 @@ export default function Page() {
 
 <section class="container">
 <div class="content">
-<h1><span>Creative</span> Software Engineer.</h1>
-<p>I like to craft solid and scalable products with great user experiences.</p>
-<p>I'm Robinson Honour, with 6+ Years of experience. Started coding in 2017, specializing in web development, app development, robotics, cloud computing, and game development.</p>
-<p>Self-taught programmer with proven experience in building live projects. Active tech content creator and speaker.</p>
+<h1><span>Innovative</span> Code Developer.</h1>
+<p>I build reliable and scalable solutions with a focus on smooth user interactions. </p>
+<p>I'm Precious Adedokun, a skilled developer with years of experience. I started robotics in 2018 and web development in 2023, specializing in web development, app development, cybersecurity, database management, and backend engineering.  </p> 
+<p>A passionate developer with hands-on experience in building live projects. An upcoming tech content creator and speaker.  </p>
 <div class="social-icons">
 <a href="#"><i class="fab fa-facebook"></i></a>
 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -23,46 +23,62 @@ export default function Page() {
 </section>
 
 <section class="services">
-<h2>Services <span>🔥</span></h2>
+<h2> Capabilities<span>🔥</span></h2>
 <div class="underline"></div>
-<p>Specialized in multiple domains of software and hardware engineering</p>
-
+<p>I specialize in various areas of programming, offering web development, app development, cybersecurity, database management, and backend engineering solutions.  </p>
 <div class="services-container">
 <div class="service-card">
 <i class="fas fa-code"></i>
-<h3>Frontend Development</h3>
-<p>Crafting responsive and interactive web applications using React, Next.js, and TypeScript. Focusing on modern UI/UX practices and optimal performance.</p>
-</div>
+<h3>Frontend Web Development</h3>
+ <p>I create responsive, user-friendly web interfaces with a focus on seamless UX, performance, and modern technologies. </p>
+ </div>
 
 <div class="service-card">
 <i class="fas fa-server"></i>
-<h3>Backend Development</h3>
-<p>Building robust server-side applications and APIs using Node.js, Python, and database technologies. Ensuring scalability and security.</p>
-</div>
+<h3>Backend Web Development</h3>
+<p>I build secure, scalable, and efficient backend systems, ensuring seamless data management and performance. </p></div>
 
 <div class="service-card">
-<i class="fas fa-mobile-alt"></i>
-<h3>App Development</h3>
-<p>Developing cross-platform mobile applications and desktop software solutions that deliver seamless user experiences across different devices.</p>
+<i class="fas fa-mobile-alt"></i> 
+<h3>Game Development</h3>
+<p>I develop interactive and engaging games with a focus on performance, scalability, and immersive user experiences. </p>
 </div>
 
 <div class="service-card">
 <i class="fas fa-robot"></i>
-<h3>Robotics Engineering</h3>
-<p>Creating and programming robotic systems, specializing in automation and control systems.</p>
-</div>
+<h3> Database Management</h3>
+ <p>I design, optimize, and manage databases for efficient data storage, retrieval, and security. </p>
+ </div> 
 
 <div class="service-card">
 <i class="fas fa-paint-brush"></i>
-<h3>UI Design</h3>
-<p>Crafting intuitive and visually appealing user interfaces with a focus on user-centered design principles and modern design trends.</p>
-</div>
+<h3> App Development</h3>
+ <p>I build high-performance, scalable, and user-friendly applications for web and mobile platforms. </p></div>
 
 <div class="service-card">
 <i class="fas fa-cloud"></i>
-<h3>Cloud Computing</h3>
-<p>Implementing and managing cloud solutions, leveraging services for scalable and efficient application deployment and infrastructure management.</p>
+<h3> Automation Engineering</h3> 
+<p>I build high-performance, scalable, and user-friendly applications for web and mobile platforms. </p>
 </div>
+
+<div class="service-card">
+    <i class="fas fa-paint-brush"></i>
+    <h3> Search Optimisation</h3> 
+
+ <p>I optimize websites for better search engine visibility, higher rankings, and increased organic traffic. </p>
+    </div>
+
+<div class="service-card">
+        <i class="fas fa-paint-brush"></i>
+            <h3>UI/UX Design</h3>
+                <p>Designing intuitive and visually appealing interfaces with a focus on user experience and modern design trends.</p>
+                </div>
+
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                        <h3>Web Maintenance</h3>
+                            <p>Ensuring website security, performance, and updates for smooth and uninterrupted operation.</p>
+                            </div>
 </div>
 </section>
 
