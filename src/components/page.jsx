@@ -1,5 +1,6 @@
 import React from 'react';
-import './style.css'
+import './style.css';
+import Globe from './globe'
 export default function Page() {
     return(
  <>
@@ -21,7 +22,7 @@ export default function Page() {
 <img src="IMG20250119114728.jpg" alt="Profile" />
 </div>
 </section>
-
+<Globe />
 <section class="services">
 <h2> Capabilities<span>🔥</span></h2>
 <div class="underline"></div>
@@ -80,8 +81,7 @@ export default function Page() {
                             <p>Ensuring website security, performance, and updates for smooth and uninterrupted operation.</p>
                             </div>
 </div>
-</section>
-
+</section> 
 <section class="projects">
 <h2>Projects</h2>
 <div class="underline">g</div>
