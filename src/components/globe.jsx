@@ -4,8 +4,9 @@ import "./style.css"; // Importing your main CSS file
 const Globe = () => {
   useEffect(() => {
     const globe = document.querySelector(".globe");
-    
-    document.addEventListener("mousemove", (e) => {
+    if (!globe) return;
+
+    const handleMouseMove = (e) => {
       const { clientX, clientY } = e;
       const centerX = window.innerWidth / 2;
       const centerY = window.innerHeight / 2;
@@ -13,17 +14,31 @@ const Globe = () => {
       const rotateY = (clientX - centerX) / 20;
 
       globe.style.transform = `rotateX(${-rotateX}deg) rotateY(${rotateY}deg)`;
-    });
+    };
+
+    document.addEventListener("mousemove", handleMouseMove);
 
     const updateTime = () => {
-      const options = { timeZone: "Asia/Kolkata", hour: "2-digit", minute: "2-digit", second: "2-digit" };
-      document.querySelector(".time").textContent = new Date().toLocaleTimeString("en-US", options);
+      const options = {
+        timeZone: "Asia/Kolkata",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: true, // Ensuring 12-hour format
+      };
+      const timeElement = document.querySelector(".time");
+      if (timeElement) {
+        timeElement.textContent = new Date().toLocaleTimeString("en-US", options);
+      }
     };
 
     updateTime();
     const interval = setInterval(updateTime, 1000);
 
-    return () => clearInterval(interval);
+    return () => {
+      document.removeEventListener("mousemove", handleMouseMove);
+      clearInterval(interval);
+    };
   }, []);
 
   return (
@@ -39,4 +54,4 @@ const Globe = () => {
   );
 };
 
-export default Globe ;
+export default Globe;
