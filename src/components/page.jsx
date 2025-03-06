@@ -91,7 +91,7 @@ export default function Page() {
 <h3>Wolow</h3>
 <a href="#"><i class="fas fa-external-link-alt"></i></a>
 </div>
-<p>Wolow is a Wake-on-LAN app that remotely powers on computers and provides features like status checks, shutdown, reboot, sleep, and lock.</p>
+<p>Wow is a Wake-on-LAN app that remotely powers on computers and provides features like status checks, shutdown, reboot, sleep, and lock.</p>
 <div class="project-icons">
 <i class="fab fa-aws"></i>
 <i class="fab fa-vuejs"></i>
