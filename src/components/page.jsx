@@ -84,7 +84,7 @@ export default function Page() {
 </section> 
 <section class="projects">
 <h2>Projects</h2>
-<div class="underline">g</div>
+<div class="underline"></div>
 <div class="projects-container">
 <div class="project-card">
 <div class="project-header">

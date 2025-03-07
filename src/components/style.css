@@ -72,6 +72,7 @@ p { font-size: 1rem; text-align: left; line-height: 1.5; margin: 10px 0; color: 
                         .globe {
                           width: 200px;
                             height: 200px;
+                            animation: rotate 1s infinite;
                               background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/World_map_blank_without_borders.svg/1024px-World_map_blank_without_borders.svg.png");
                                 background-size: cover;
                                   background-position: center;
@@ -94,4 +95,11 @@ p { font-size: 1rem; text-align: left; line-height: 1.5; margin: 10px 0; color: 
                                                   strong {
                                                     font-weight: bold;
                                                     }
- 
+ @keyframes rotate{
+  from{
+    transform: rotate(0deg)
+  }
+to{
+  transform: rotate(360deg);
+}
+ }
