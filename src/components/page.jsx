@@ -25,10 +25,7 @@ export default function Page() {
 <Globe /> 
 <div class="banner-container">
     <div class="banner">
-    <span>✨ RESPONSIBLE ✨  DYNAMIC ✨</span>
-    </div>
-    <div class="banner">
-    <span>✨ SECURE ✨ RELIABLE ✨</span>
+    <span>✨ SECURE ✨ RELIABLE ✨ RESPONSIBLE ✨ DYNAMIC ✨ SEARCH OPTIMISED ✨ SCALABLE ✨ INTERACTIVE ✨ ENGAGING</span>
     </div>
     </div> 
 <section class="services">

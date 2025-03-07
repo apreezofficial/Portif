@@ -102,10 +102,9 @@ to{
 }
 }
  .banner-container {
-  display: flex;
   overflow: hidden;
   position: relative;
-  width: 100vw;
+  width: fit-content;
   height: 80px;
   background: #000;
   align-items: center;
@@ -119,19 +118,14 @@ to{
   gap: 30px;
   white-space: nowrap;
   padding: 20px 0;
-  width: 200%;
-  background: linear-gradient(90deg, #0055FF, #0088FF);
+  width: 300%;
+  background: linear-gradient(90deg, #8A2BE2, #6F42C1);
   color: white;
   font-size: 24px;
   font-weight: bold;
   transform: skew(-10deg);
   animation: marquee 6s linear infinite;
   }
-
-  .banner:nth-child(2) {
-  left: 100%;
-  }
-
   @keyframes marquee {
   from {transform: translateX(0) skew(-10deg);}
   to {transform: translateX(-100%) skew(-10deg);}
