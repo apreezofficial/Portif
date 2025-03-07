@@ -102,9 +102,10 @@ to{
 }
 }
  .banner-container {
+  display:flex;
   overflow: hidden;
   position: relative;
-  width: fit-content;
+  width: 100%;
   height: 80px;
   background: #000;
   align-items: center;
@@ -122,8 +123,7 @@ to{
   background: linear-gradient(90deg, #8A2BE2, #6F42C1);
   color: white;
   font-size: 24px;
-  font-weight: bold;
-  transform: skew(-10deg);
+  font-weight: bold; 
   animation: marquee 6s linear infinite;
   }
   @keyframes marquee {

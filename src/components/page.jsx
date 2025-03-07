@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
-import Globe from './globe'
+import Globe from './globe';
+import Testimonials from './testimonials' 
 export default function Page() {
     return(
  <>
@@ -107,6 +108,7 @@ export default function Page() {
 </div>
 </div>
 </section>
+
 </>
     )
 } 
