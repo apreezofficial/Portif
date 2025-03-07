@@ -9,7 +9,7 @@ export default function Page() {
 <div class="content">
 <h1><span>Innovative</span> Code Developer.</h1>
 <p>I build reliable and scalable solutions with a focus on smooth user interactions. </p>
-<p>I'm Precious Adedokun, a skilled developer with years of experience. I started robotics in 2018 and web development in 2023, specializing in web development, app development, cybersecurity, database management, and backend engineering.  </p> 
+<p>I'm Precious Adedokun, alias apcodesphere ,  a skilled developer with years of experience. I started robotics in 2018 and web development in 2023, specializing in web development, app development, cybersecurity, database management, and backend engineering.  </p> 
 <p>A passionate developer with hands-on experience in building live projects. An upcoming tech content creator and speaker.  </p>
 <div class="social-icons">
 <a href="#"><i class="fab fa-facebook"></i></a>
@@ -22,7 +22,13 @@ export default function Page() {
 <img src="IMG20250119114728.jpg" alt="Profile" />
 </div>
 </section>
-<Globe />
+<Globe /> 
+<div className="banner-wrapper">
+    <div className="banner-bg"></div>
+    <div className="banner">
+    <span>SCALABLE ✦ SEARCH OPTIMIZED</span>
+    </div>
+    </div>
 <section class="services">
 <h2> Capabilities<span>🔥</span></h2>
 <div class="underline"></div>

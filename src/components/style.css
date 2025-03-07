@@ -52,14 +52,12 @@ p { font-size: 1rem; text-align: left; line-height: 1.5; margin: 10px 0; color: 
 .project-icons i { font-size: 20px; color: #FF6B00; }  
 @media (min-width: 768px) { .projects-container { justify-content: center; } }
  .globe-container {
-      display: flex;
-      margin-top: 0;
-      margin-bottom: 0;
-        flex-direction: column;
+      display: flex;  
+      flex-direction: column;
           align-items: center;
             justify-content: center;
               text-align: center;
-                height: 100vh;
+ height  : fit-content;
                   padding: 20px;
                   }
 
@@ -72,7 +70,7 @@ p { font-size: 1rem; text-align: left; line-height: 1.5; margin: 10px 0; color: 
                         .globe {
                           width: 200px;
                             height: 200px;
-                            animation: rotate 1s infinite;
+                            animation: rotate 10s infinite;
                               background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/World_map_blank_without_borders.svg/1024px-World_map_blank_without_borders.svg.png");
                                 background-size: cover;
                                   background-position: center;
@@ -102,4 +100,45 @@ p { font-size: 1rem; text-align: left; line-height: 1.5; margin: 10px 0; color: 
 to{
   transform: rotate(360deg);
 }
+ } 
+ .banner-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
  }
+
+ .banner {
+  position: absolute;
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+  color: var(--text-light);
+  font-size: var(--font-size-lg);
+  font-weight: bold;
+  padding: 15px 40px;
+  border-radius: var(--border-radius-md);
+  transform: rotate(-3deg);
+  animation: marqueeMove 8s linear infinite;
+  white-space: nowrap;
+ }
+
+ .banner-bg {
+  position: absolute;
+  width: 110%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  clip-path: polygon(0% 40%, 100% 0%, 100% 60%, 0% 100%);
+  animation: bgMove 6s linear infinite alternate;
+ }
+
+ @keyframes marqueeMove {
+  0% { transform: translateX(100%) rotate(-3deg); }
+  100% { transform: translateX(-100%) rotate(-3deg); }
+ }
+
+ @keyframes bgMove {
+  0% { transform: translateX(-20px); }
+  100% { transform: translateX(20px); }
+ } 
