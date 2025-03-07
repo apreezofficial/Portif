@@ -8,7 +8,7 @@ export default function Page() {
 
 <section class="container">
 <div class="content">
-<h1><span>Innovative</span> Code Developer.</h1>
+<h1><span>Innovative</span> Code Developer</h1>
 <p>I build reliable and scalable solutions with a focus on smooth user interactions. </p>
 <p>I'm Precious Adedokun, alias apcodesphere ,  a skilled developer with years of experience. I started robotics in 2018 and web development in 2023, specializing in web development, app development, cybersecurity, database management, and backend engineering.  </p> 
 <p>A passionate developer with hands-on experience in building live projects. An upcoming tech content creator and speaker.  </p>
