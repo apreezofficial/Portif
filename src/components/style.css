@@ -54,6 +54,7 @@ p { font-size: 1rem; text-align: left; line-height: 1.5; margin: 10px 0; color: 
  .globe-container {
       display: flex;
       margin-top: 0;
+      margin-bottom: 0;
         flex-direction: column;
           align-items: center;
             justify-content: center;
