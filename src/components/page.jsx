@@ -23,12 +23,14 @@ export default function Page() {
 </div>
 </section>
 <Globe /> 
-<div className="banner-container">
-<div className="banner-background"></div>
-<div className="banner-track">
-<span>⚡ SECURE ✦ RELIABLE ✦ EFFICIENT ⚡ SECURE ✦ RELIABLE ✦ EFFICIENT ⚡</span>
-</div>
-</div> 
+<div class="banner-container">
+    <div class="banner">
+    <span>✨ RESPONSIBLE ✨  DYNAMIC ✨</span>
+    </div>
+    <div class="banner">
+    <span>✨ SECURE ✨ RELIABLE ✨</span>
+    </div>
+    </div> 
 <section class="services">
 <h2> Capabilities<span>🔥</span></h2>
 <div class="underline"></div>

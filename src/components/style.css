@@ -101,3 +101,49 @@ to{
   transform: rotate(360deg);
 }
 }
+ .banner-container {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 80px;
+  background: #000;
+  align-items: center;
+  }
+
+  .banner {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  white-space: nowrap;
+  padding: 20px 0;
+  width: 200%;
+  background: linear-gradient(90deg, #0055FF, #0088FF);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  transform: skew(-10deg);
+  animation: marquee 6s linear infinite;
+  }
+
+  .banner:nth-child(2) {
+  left: 100%;
+  }
+
+  @keyframes marquee {
+  from {transform: translateX(0) skew(-10deg);}
+  to {transform: translateX(-100%) skew(-10deg);}
+  }
+
+  .banner span {
+  display: inline-block;
+  animation: glow 1.5s infinite alternate;
+  }
+
+  @keyframes glow {
+  from {text-shadow: 0 0 10px rgba(255,255,255,0.8);}
+  to {text-shadow: 0 0 20px rgba(255,255,255,1);}
+  }
+  
